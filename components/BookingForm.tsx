@@ -17,7 +17,7 @@ const BookingForm = () => {
   };
 
   return (
-    <div className="max-w-lg mx-auto p-6 bg-white shadow-lg rounded-lg">
+    <div className=" mx-auto p-6 bg-white shadow-lg rounded-lg">
       <h2 className="text-xl font-semibold mb-4">Enter Your Details</h2>
       <div className="bg-blue-100 text-blue-800 p-3 rounded mb-4">Almost done! Just fill in the <span className="text-red-500">*</span> required info</div>
       

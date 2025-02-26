@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import ClientsExperience from "@/components/ClientExperience";
 import Gallery from "@/components/Gallery";
 import HeroBooking from "@/components/HeroBooking";
@@ -9,43 +8,24 @@ import RoomCarousel from "@/components/RoomCarousel";
 import Services from "@/components/Services";
 import SpecialOffers from "@/components/SpecialOffers";
 
-const fadeInUp = {
-  hidden: { opacity: 0, y: 50 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
-};
-
 export default function Home() {
   return (
     <div className="bg-gray-100 text-gray-800">
       <HeroBooking />
       
-      <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-        <HotelComponent />
-      </motion.div>
+      <HotelComponent />
       
-      <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-        <RoomCarousel />
-      </motion.div>
+      <RoomCarousel />
       
-      <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-        <Services />
-      </motion.div>
+      <Services />
       
-      <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-        <HotelService />
-      </motion.div>
+      <HotelService />
       
-      <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-        <ClientsExperience />
-      </motion.div>
+      <ClientsExperience />
       
-      <motion.div
+      <div
         className="relative bg-cover bg-center text-white py-24 px-6"
         style={{ backgroundImage: "url('/images/bg2.png')" }}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        variants={fadeInUp}
       >
         <div className="absolute inset-0 bg-black bg-opacity-70"></div>
         <div className="relative max-w-3xl mx-auto text-center z-10">
@@ -61,19 +41,15 @@ export default function Home() {
             Book Now
           </button>
         </div>
-      </motion.div>
+      </div>
       
-      <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-        <SpecialOffers />
-      </motion.div>
+      <SpecialOffers />
       
-      <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-        <LatestBlog />
-      </motion.div>
+      <LatestBlog />
       
-      <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp} className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-4 py-12">
         <Gallery />
-      </motion.div>
+      </div>
     </div>
   );
 }

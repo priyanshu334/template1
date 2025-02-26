@@ -4,7 +4,7 @@ import React from 'react';
 
 const BookingDetails: React.FC = () => {
   return (
-    <div className="max-w-md mx-auto border rounded-lg p-4 shadow-lg bg-white">
+    <div className=" mx-auto border rounded-lg p-4 shadow-lg bg-white">
       <h2 className="text-lg font-bold mb-4">Your booking details</h2>
       
       <div className="flex justify-between border-b pb-2">

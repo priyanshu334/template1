@@ -4,7 +4,7 @@ import { FaShuttleVan, FaWifi, FaUtensils, FaParking } from "react-icons/fa";
 
 export default function HotelCard() {
   return (
-    <div className="max-w-md mx-auto border rounded-lg shadow-md p-4 bg-white">
+    <div className=" mx-auto border rounded-lg shadow-md p-4 bg-white">
       <h2 className="text-lg font-semibold flex items-center gap-2">
         Hotel <span className="text-yellow-500">⭐⭐⭐</span>
         <span className="bg-yellow-500 text-white p-1 rounded">👍</span>

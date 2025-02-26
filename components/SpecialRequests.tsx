@@ -6,7 +6,7 @@ const SpecialRequests = () => {
   const [request, setRequest] = useState('');
 
   return (
-    <div className="border rounded-lg p-6 shadow-lg max-w-lg mx-auto bg-white">
+    <div className="border rounded-lg p-6 shadow-lg  mx-auto bg-white">
       <h2 className="text-2xl font-bold mb-2">Special requests</h2>
       <p className="text-gray-600 text-sm mb-4">
         Special requests cannot be guaranteed – but the property will do its best to meet your needs. You can always make a special request after your booking is complete!

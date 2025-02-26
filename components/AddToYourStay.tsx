@@ -15,7 +15,7 @@ const AddToYourStay = () => {
   };
 
   return (
-    <div className="p-6 max-w-xl border rounded-lg shadow-md bg-white">
+    <div className="p-6  border rounded-lg shadow-md bg-white">
       <h2 className="text-2xl font-semibold mb-4">Add to your stay</h2>
       <div className="space-y-4">
         {/* Shuttle Option */}

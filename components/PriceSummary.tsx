@@ -2,7 +2,7 @@ import React from "react";
 
 const PriceSummary = () => {
   return (
-    <div className="max-w-md mx-auto bg-gray-100 p-4 rounded-lg shadow-md">
+    <div className="bg-white mx-auto bg-gray-100 p-4 rounded-lg shadow-md">
       <div className="border-b pb-3">
         <h2 className="text-xl font-semibold">Your price summary</h2>
         <div className="mt-2">

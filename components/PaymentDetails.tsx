@@ -4,7 +4,7 @@ import React from 'react';
 
 const PaymentDetails = () => {
   return (
-    <div className="max-w-lg mx-auto p-6 space-y-4 border border-gray-300 rounded-lg shadow-lg">
+    <div className=" mx-auto p-6 space-y-4 border bg-white border-gray-300 rounded-lg shadow-lg">
       {/* Payment Schedule Section */}
       <div className="p-4 border rounded-lg bg-gray-100">
         <h2 className="text-lg font-semibold text-gray-900">Your payment schedule</h2>
