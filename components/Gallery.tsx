@@ -23,12 +23,12 @@ export default function Gallery() {
             <div className="relative w-full h-72">
               <Image src={item.imageUrl} alt={item.title} layout="fill" objectFit="cover" className="rounded-t-2xl" />
             </div>
-            <div className="p-5 text-center">
+            <div className="p-5 bg-purple-800 text-white text-center">
               <h3 className="text-xl font-semibold">{item.title}</h3>
-              <p className="text-black">{item.photosCount} Photos</p>
+              <p className="text-white">{item.photosCount} Photos</p>
             </div>
             <div className="absolute inset-0 bg-black/40 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
-              <p className="text-black text-lg font-medium">View More</p>
+              <p className="text-white text-lg font-medium">View More</p>
             </div>
           </motion.div>
         ))}

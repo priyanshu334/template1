@@ -9,7 +9,7 @@ const Services = () => {
       <div className="absolute inset-0 bg-black opacity-80"></div>
       <div className="relative max-w-6xl mx-auto text-center">
         <h2 
-          className="text-3xl md:text-4xl font-bold text-pink-400 mb-4"
+          className="text-3xl md:text-4xl font-bold text-purple-500 mb-4"
         >
           Our Services & Features
         </h2>

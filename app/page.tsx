@@ -37,7 +37,7 @@ export default function Home() {
             Call us: <span className="font-bold">9654256-000000</span> / Email:
             <span className="font-bold"> mhgdhsvgshjsjs@gmail.com</span>
           </p>
-          <button className="mt-4 bg-pink-600 hover:bg-pink-700 text-white py-3 px-8 rounded-full text-lg shadow-lg transition-transform transform hover:scale-105">
+          <button className="mt-4 bg-purple-600 hover:bg-purple-700 font-bold text-white py-4 px-10 rounded-xl text-lg shadow-lg transition-transform transform hover:scale-105">
             Book Now
           </button>
         </div>

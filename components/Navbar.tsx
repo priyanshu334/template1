@@ -24,7 +24,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/booking" className="hover:text-yellow-300 transition duration-300">
+            <Link href="/hotelbooking" className="hover:text-yellow-300 transition duration-300">
               Booking
             </Link>
           </li>
@@ -77,7 +77,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/booking" className="block py-2 hover:text-yellow-300 transition duration-300" onClick={() => setIsOpen(false)}>
+                <Link href="/hotelbooking" className="block py-2 hover:text-yellow-300 transition duration-300" onClick={() => setIsOpen(false)}>
                   Booking
                 </Link>
               </li>
@@ -102,11 +102,17 @@ const Navbar = () => {
                 </Link>
               </li>
             </ul>
-            <div className="text-center mt-4">
+            
+              <Link href="/Roomdetails">
+              <div className="text-center mt-4">
               <button className="bg-yellow-400 text-gray-900 px-5 py-2 rounded-lg font-semibold hover:bg-yellow-500 transition duration-300">
                 Book Now
               </button>
+                  
             </div>
+              
+              </Link>
+         
           </motion.div>
         )}
       </AnimatePresence>
